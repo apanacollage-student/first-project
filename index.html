@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,8 @@
 
 
     <!-- Icons -->
-    
-   <link rel="icon" type="image/png" href="favicon.png?v=3">
+
+    <link rel="icon" type="image/png" href="favicon.png?v=3">
 
 
 
@@ -23,16 +24,40 @@
 
     <!-- ================= HEADER ================= -->
     <header>
+
+        <div class="top-bar">
+            <p>Call us: +917479711177 | Email: ayushkumar85890.com</p>
+
+        </div>
+        <div id="insta">
+            <a href="https://www.instagram.com/ayush_yadav____0" target="_blank"><img src="insta.png" alt="Instagram"
+                    width="30" height="30"></a>
+        </div>
+
         <div class="hero">
 
+
             <div id="profile-pic">
-                <img id="myphoto" src="myph.jpg" alt="Profile Photo">
-                <h3>WEB STACK DEVELOPER</h3>
+                <img id="myphoto" src="favicon.png" alt="Profile Photo">
+
+            </div>
+            <div id="name">
+                <h1>Shop Website Makers </h1>
             </div>
 
-            <h1>Shop Website Makers</h1>
-            <h2>Transform your local shop into an online powerhouse!</h2>
 
+
+            <div id="tagline">
+                <ul>
+                    <h2>
+                        <li>Affordable Websites for Local Shops</li>
+                    </h2>
+                    <li>Fast Turnaround • Mobile Friendly • Easy Setup</li>
+
+                    <h3>
+                        <li>Your Shop, Now Online</li>
+                    </h3>
+            </div>
             <a href="#contact" class="get-started">Get Started</a>
         </div>
 
@@ -66,19 +91,21 @@
             <div class="service-card">
                 <i class="fas fa-globe fa-3x"></i>
                 <h3>Basic Website</h3>
-                <p>Homepage, products, contact. ₹2000 onwards.</p>
+
+                <p>simple & affordable websites. ₹5000 onwards.</p>
+
             </div>
 
             <div class="service-card">
                 <i class="fas fa-shopping-cart fa-3x"></i>
                 <h3>E-commerce</h3>
-                <p>Online orders & payments. ₹5000 onwards.</p>
+                <p>online store setup <br> sell your product online<br> easy e-commerce website. </p>
             </div>
 
             <div class="service-card">
                 <i class="fas fa-palette fa-3x"></i>
                 <h3>Custom Design</h3>
-                <p>Branded to your shop. ₹3000 onwards.</p>
+                <p>custom-made websites</p>
             </div>
 
         </div>
@@ -89,41 +116,47 @@
     <!-- ================= CONTACT SECTION ================= -->
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>Ready to go online? Send us your details!</p>
+        <p>Ready to go online?<br>let's build your website! Send us your details!</p>
 
-      <form id="contact-form" name="contact" method="POST" data-netlify="true">
-    <input type="hidden" name="form-name" value="contact">
+        <form id="contact-form" name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact">
 
-    <div class="form-group">
-        <label><i class="fas fa-user"></i> Name:</label>
-        <input type="text" name="name" id="name" required>
-    </div>
+          <UL>
+         <LABEL FOR="NAME">NAME</LABEL>
+            <LI><INPUT TYPE="TEXT" ID="NAME" NAME="NAME" placeholder="ENTER YOUR NAME " REQUIRED></LI>
+             <BR>
+                <LABEL FOR="EMAIL">EMAIL</LABEL>
+               <LI> <INPUT TYPE="TEXT" ID="EMAIL" NAME="EMAIL" placeholder="ENTER YOUR EMAIL" required></LI>
+                <BR>
+                 <LABEL FOR="NUMBER">NUMBER</LABEL>
+                <LI><INPUT TYPE="NUMBER" ID="NUMBER" NAME ="NUMBER" PLACEHOLDER="ENTER YOUR 10 DIGIT NUMBER" REQUIRED></LI>
+                <BR>
+                <label for="SHOP NAME">SHOP NAME</label>
+                <LI><INPUT TYPE="TEXT" ID="SHOP NAME" NAME="SHOP NAME" PLACEHOLDER="ENTER YOUR SHOP NAME" REQUIRED></LI>
+                <BR>
+                    <label for="SHOP ADDRESS">SHOP ADDRESS</label>
+                <LI><INPUT TYPE="TEXT" ID="SHOP ADDRESS" NAME="SHOP ADDRESS" PLACEHOLDER="ENTER YOUR SHOP ADDRESS" REQUIRED></LI>
+                <BR>
+          
+                <LABEL FOR ="PASSWORD">PASSWORD</LABEL>
+                <LI><INPUT TYPE="PASSWORD" ID="PASSWORD" NAME="PASSWORD" PLACEHOLDER="ENTER   PASSWORD" RQUIRED></LI>   
+                    <BR>
+               <LABEL FOR="CONFIRM PASSWORD">CONFIRM PASSWORD</LABEL>
+               <LI><INPUT TYPE="password" ID="CONFIRM PASSWORD" NAEME="CONFIRM PASSWORD" PLACEHOLDER="CONFIRM PASSWORD" REQUIRED></LI>
+                <BR>
+                    <label for="message">MESSAGE</label>
+                <LI><TEXTAREA ID="message" NAME="message" PLACEHOLDER="ENTER YOUR MESSAGE HERE"></TEXTAREA></LI>
+               <br>
+            </UL>
+                    
+                      
 
-    <div class="form-group">
-        <label><i class="fas fa-envelope"></i> Email:</label>
-        <input type="email" name="email" id="email" required>
-    </div>
 
-    <div class="form-group">
-        <label><i class="fas fa-phone"></i> Phone:</label>
-        <input type="tel" name="phone" id="phone" required>
-    </div>
-
-    <div class="form-group">
-        <label><i class="fas fa-store"></i> Shop Name:</label>
-        <input type="text" name="shop-name" id="shop-name" required>
-    </div>
-
-    <div class="form-group">
-        <label><i class="fas fa-comment"></i> Details:</label>
-        <textarea name="message" id="message" rows="4" required></textarea>
-    </div>
-
-    <button type="submit" class="cta-btn">Send Inquiry</button>
-</form>
+            <button type="submit" class="submit">Send Inquiry</button>
+        </form>
 
 
-       
+
 
         <p><i class="fas fa-phone"></i> Call: +917479711177 |
             <i class="fas fa-envelope"></i> Email: ayushkumar85890@gmail.com
@@ -138,4 +171,5 @@
     </footer>
 
 </body>
+
 </html>
